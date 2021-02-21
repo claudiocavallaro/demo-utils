@@ -36,4 +36,11 @@ public class HomeController {
         }
     }
 
+    @GetMapping("/findName")
+    @ResponseBody
+    public String findName(@RequestParam String nome){
+        return findService.findName(nome);
+    }
+
+
 }

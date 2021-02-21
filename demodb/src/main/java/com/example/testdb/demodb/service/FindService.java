@@ -20,4 +20,8 @@ public class FindService {
         repo.findAll().forEach(findAllList::add);
         return new Gson().toJson(findAllList);
     }
+
+    public String findName(String nome){
+        return repo.getNome(nome);
+    }
 }

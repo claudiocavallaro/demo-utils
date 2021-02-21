@@ -16,4 +16,4 @@ owned by "db".userdb.id;
 insert into "db".userdb(
     nome,
     cognome)
-values ('prova nome', 'prova cognome');
+values ('provanome', 'provacognome');
