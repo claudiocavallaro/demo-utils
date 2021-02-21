@@ -1,5 +1,5 @@
 # demo-utils
-various demo and utils
+various demo and utils for docker
 
 
 - Demodb
