@@ -1,10 +1,10 @@
 # demo-utils
-various demo and utils
+various demo and utils for docker
 
 
 - Demodb
-	-> app spring boot
-	-> db postgres
+	- app spring boot
+	- db postgres
 
 - Docker utils
-	-> script shutdown all
+	- script shutdown all
