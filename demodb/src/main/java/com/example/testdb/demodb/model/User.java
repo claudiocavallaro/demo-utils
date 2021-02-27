@@ -1,5 +1,7 @@
 package com.example.testdb.demodb.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -13,9 +15,11 @@ public class User implements Serializable {
     private long id;
 
     @Column(name = "nome")
+    @JsonProperty("nome")
     private String nome;
 
     @Column(name = "cognome")
+    @JsonProperty("cognome")
     private String cognome;
 
     protected User(){}
