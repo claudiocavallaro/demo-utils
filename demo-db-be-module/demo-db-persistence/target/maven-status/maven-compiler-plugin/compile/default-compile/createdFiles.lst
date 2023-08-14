@@ -1,0 +1,5 @@
+com/claudiocavallaro/app/persistence/services/DemoDbServiceImpl.class
+com/claudiocavallaro/app/persistence/repositories/UserRepository.class
+com/claudiocavallaro/app/persistence/entities/UserEntity.class
+com/claudiocavallaro/app/persistence/DemoDbPersistenceConfig.class
+com/claudiocavallaro/app/persistence/services/DemoDbService.class

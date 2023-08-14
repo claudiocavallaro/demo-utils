@@ -1,0 +1,5 @@
+com/claudiocavallaro/app/be/config/DemoDbBEConfig.class
+com/claudiocavallaro/app/be/apis/UserApiImpl.class
+com/claudiocavallaro/app/be/facade/DemoDbFacadeImpl.class
+com/claudiocavallaro/app/be/DemoDbBeApplication.class
+com/claudiocavallaro/app/be/facade/DemoDbFacade.class
