@@ -24,4 +24,8 @@ public class FindService {
     public String findName(String nome){
         return repo.getNome(nome);
     }
+
+    public User findByNomeCognome(String nome, String cognome){
+        return repo.findByNomeAndCognome(nome, cognome);
+    }
 }
